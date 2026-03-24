@@ -202,6 +202,7 @@
     <Compile Include="CapaDatos\Entidades\Categoria.cs" />
     <Compile Include="CapaDatos\Entidades\Dispositivo.cs" />
     <Compile Include="CapaDatos\InventarioContext.cs" />
+    <Compile Include="CapaNegocio\DispositivoService.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -244,7 +245,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="CapaNegocio\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
