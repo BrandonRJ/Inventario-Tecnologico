@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="InventarioTecnologia.CapaPresentacion.MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Inventario Tecnológico</title>
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+
+        <header-master>
+            <h1>Inventario Tecnológico</h1>
+
+            <nav>
+                <a href="Listado.aspx">Inicio</a>
+                <span>|</span>
+                <a href="Crear.aspx">Nuevo Dispositivo</a>
+            </nav>
+        </header-master>
+
+        <div class="contenido-wrapper">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+    </form>
+</body>
+</html>
