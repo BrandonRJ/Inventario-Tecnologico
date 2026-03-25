@@ -26,7 +26,7 @@ namespace InventarioTecnologia.CapaPresentacion.Views
                 ddlCategorias.DataBind();
 
                 // Insertamos un valor inicial vacío para forzar la selección
-                ddlCategorias.Items.Insert(0, new ListItem("-- Seleccione --", ""));
+                ddlCategorias.Items.Insert(0, new ListItem("-- Seleccione --", "0"));
             }
         }
 

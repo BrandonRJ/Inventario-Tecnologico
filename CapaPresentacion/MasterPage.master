@@ -4,7 +4,7 @@
 <html>
 <head runat="server">
     <title>Inventario Tecnológico</title>
-    <link href="css/site.css" rel="stylesheet" />
+  <link href="<%= ResolveUrl("~/CapaPresentacion/Views/Estilos/Site.css") %>" rel="stylesheet" />
 </head>
 <body>
     <form runat="server">
